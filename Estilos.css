@@ -3,7 +3,9 @@
 
     font-family: 'PT Sans', sans-serif;
     box-sizing: border-box;
-    
+
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -17,17 +19,20 @@ img {
 
 .row {
     display: flex;
-    padding: 5px;
+    padding: 3px;
     flex-wrap: wrap;
 }
 
-.colum {
+.column {
     flex: 25%;
-    padding: 5px;
+    padding: 0px;
+    margin: 0px;
+    /* display: flex; */
 }
 
 .column img {
-    margin-top: 5px;
+    margin-top: 1px;
+    padding: 1px;
 }
 
 @media (max-width: 600px) {
@@ -162,7 +167,34 @@ button {
     width: 100%;
 }
 
+/* galeria */
+
+.tamaño1 img {
+    width: 550px;
+    height: 550px;
+    /* object-fit: cover; */
+    display: flex;
+}
+
+.tamaño2 img {
+    width: 275px;
+    height: 275px;
+    /* object-fit: cover; */
+    display: flex;
+}
+
+.tamaño3 img {
+    width: 550px;
+    height: 220px;
+    /* object-fit: cover; */
+    display: flex;
+}
+
 /* footer */
+footer {
+    background-color: burlywood;
+}
+
 footer .redes-sociales {
     display: flex;
     align-content: center;
