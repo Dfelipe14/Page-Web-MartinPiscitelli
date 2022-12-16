@@ -52,10 +52,17 @@ body {
 /* menu desplegable */
 .navbar-collapse {
     text-align: center;
-    display: block;
-    justify-content: end;
-
+    display: flex;
+    justify-content: flex-end;
 }
+
+/* a .navbar-brand img{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    position: relative;
+    right: 500px;
+} */
 
 /* cierre de menu */
 
@@ -64,8 +71,18 @@ body {
     width: 90%;
     margin: 10px 3px;
     text-align: center;
+    
 }
-
+.frame span{
+    font-weight: bold;
+}
+.frame a{
+    text-decoration: none;
+    color: #000;
+}
+.frame a:hover{
+    color: #000;
+}
 button {
     margin: 20px;
 }
@@ -73,7 +90,7 @@ button {
 .custom-btn {
     width: 130px;
     height: 40px;
-    color: rgb(253, 93, 0);
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     padding: 10px 25px;
     font-family: 'Lato', sans-serif;
@@ -91,7 +108,7 @@ button {
 
 .btn-7 {
     /* background: linear-gradient(0deg, rgba(255, 151, 0, 1) 0%, rgba(251, 75, 2, 1) 100%); */
-    line-height: 42px;
+    /* line-height: 42px;
     padding: 0;
     border: none;
 }
@@ -129,7 +146,7 @@ button {
 }
 
 .btn-7:hover {
-    color: rgba(251, 75, 2, 1);
+    color: rgb(0, 0, 0);
     background: transparent;
 }
 
@@ -172,75 +189,64 @@ button {
 
 .btn-7 span:hover:after {
     width: 100%;
-}
+} */ */
 
-/* footer */
-footer {
-    background-color: burlywood;
-}
-
-footer .redes-sociales {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-
-footer .redes-sociales a {
-    display: block;
-    width: 60px;
-    height: 60px;
-    background: #000;
-    color: #fff;
-    margin: 20px;
-    text-align: center;
-    border-radius: 100px;
-    transition: .3s ease all;
-}
-
-footer .redes-sociales .twitter {
-    background: #1da1f2;
-}
-
-footer .redes-sociales .facebook {
-    background: #3b5998;
-}
-
-footer .redes-sociales .instagram {
-    background: #c13584;
-}
-
-footer .redes-sociales a i {
-    font-size: 20px;
-    line-height: 60px;
-}
-
-footer .contenedor-icono:hover a {
-    animation: icono .5s ease;
-}
-
-@keyframes icono {
-    from {
-        transform: rotate3d(0, 0, 0, 0);
+footer
+body{
+    margin:0;
+    overflow-x:hidden;
     }
-
-    to {
-        transform: rotate3d(0, 1, 0, 360deg);
+    
+    .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
     }
-}
-
-footer .creado-por {
-    margin-bottom: 40px;
-    text-align: center;
-    font-size: 14px;
-    color: #000000;
-}
-
-footer .creado-por a {
-    color: #000000;
-}
-
-footer .creado-por a:hover {
-    text-decoration: underline;
-}
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
