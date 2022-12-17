@@ -15,10 +15,11 @@
     <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
 
     <!-- iconos -->
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="https://kit.fontawesome.com/861b009949.js" crossorigin="anonymous"></script>
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- icono git -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
@@ -70,122 +71,115 @@
 
     <main>
 
-        <div class="grid">
-
-
-            <!-- "flexGrow":      photo.width * 100 / photo.height,
-            "flexBasis":     photo.width * 240 / photo.height,
-            "paddingBottom": photo.height / photo.width * 100.0,
-            -->
-
-            <figure style="flex-grow:66.667; flex-basis:160px;">
-                <i style="padding-bottom:150%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/01---Michael-Jordan--history.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:150; flex-basis:360px;">
-                <i style="padding-bottom:66.667%"></i>
-                <img style="object-fit: cover;" src="página web/Imagenes Landing/02---Ullum-summer.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:106.667; flex-basis:256px;">
-                <i style="padding-bottom:93.75%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/03--Cuyan-Guys.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:233.333; flex-basis:560px;">
-                <i style="padding-bottom:42.857%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/04---Basket-Dog.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:100; flex-basis:240px;">
-                <i style="padding-bottom:100%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/05---Adios-Diego.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:62.5; flex-basis:150px;">
-                <i style="padding-bottom:160%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/06---Campaña-consumo-de-agua.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:82.581; flex-basis:198px;">
-                <i style="padding-bottom:121.094%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/07---Fresh-Time.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:128.6407767; flex-basis:308.7378641px;">
-                <i style="padding-bottom:77.73584906%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/08---Fresh-Time.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:127.1052632; flex-basis:305.0526316px;">
-                <i style="padding-bottom:78.67494824%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/09---Skaraboom.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:153.168; flex-basis:368px;">
-                <i style="padding-bottom:65.288%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/10-Black-Cat.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:97.101; flex-basis:233px;">
-                <i style="padding-bottom:102.985%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/11---Capitan-Flint.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:236.842; flex-basis:568px;">
-                <i style="padding-bottom:42.222%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/12--Muitú.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:232.02; flex-basis:257px;">
-                <i style="padding-bottom:43.1%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/13---Summer-Witches.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:184.076; flex-basis:442px;">
-                <i style="padding-bottom:54.325%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/14-Hok-el-vikingo-pacifista.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:220; flex-basis:328px;">
-                <i style="padding-bottom:45.455%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/15--Désvu-wine.jpg" alt="placeholder">
-            </figure>
-
-            <figure style="flex-grow:431.25; flex-basis:435px;">
-                <i style="padding-bottom:23.188%"></i>
-                <img style="object-fit: cover;" src="./página web/Imagenes Landing/16---Swamp-Spirit.jpg" alt="placeholder">
-            </figure>
-
+        <div class="contenedor-galeria"></div>
+        <div class="fila">
+            <div class="columna-1-3">
+                <div class="small"><img src="./página web/Imagenes Landing/02---Ullum-summer.jpg" alt=""></div>
+                <div class="small"><img src="./página web/Imagenes Landing/03--Cuyan-Guys.jpg" alt=""></div>
+            </div>
+            <div class="columna-2-3">
+                <div class="normal"><img src="./página web/Imagenes Landing/01---Michael-Jordan--history.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="columna-2-3">
+                <div class="fila">
+                    <div class="columna-50"></div>
+                    <div class="large">
+                        <img src="./página web/Imagenes Landing/04---Basket-Dog.jpg" alt="">
+                    </div>
+                    <div class="columna-50">
+                        <div class="small"><img src="./página web/Imagenes Landing/05---Adios-Diego.jpg" alt=""></div>
+                        <div class="small"><img src="./página web/Imagenes Landing/06---Campaña-consumo-de-agua.jpg"
+                                alt=""></div>
+                    </div>
+                </div>
+                <div class="normal">
+                    <img src="./página web/Imagenes Landing/07---Fresh-Time.jpg" alt="">
+                </div>
+            </div>
+            <div class="columnna-1-3">
+                <div class="small">
+                    <img src="./página web/Imagenes Landing/08---Dia-de-las-infancias.jpg" alt="">
+                </div>
+                <div class="large">
+                    <img src="./página web/Imagenes Landing/09---Skaraboom.jpg" alt="">
+                </div>
+                <div class="small">
+                    <img src="./página web/Imagenes Landing/10-Black-Cat.jpg" alt="">
+                </div>
+            </div>
+            <div class="columna-1-3">
+                <div class="small"><img src="./página web/Imagenes Landing/11---Capitan-Flint.jpg" alt=""></div>
+                <div class="small"><img src="./página web/Imagenes Landing/12--Muitú.jpg" alt=""></div>
+            </div>
+            <div class="columna-2-3">
+                <div class="normal"><img src="./página web/Imagenes Landing/13---Summer-Witches.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="columna-2-3">
+                <div class="fila">
+                    <div class="columna-50"></div>
+                    <div class="large">
+                        <img src="./página web/Imagenes Landing/14-Hok-el-vikingo-pacifista.jpg" alt="">
+                    </div>
+                    <div class="columna-50">
+                        <div class="small"><img src="./página web/Imagenes Landing/15--Désvu-wine.jpg" alt=""></div>
+                        <div class="small"><img src="./página web/Imagenes Landing/16---Swamp-Spirit.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="normal">
+                    <img src="./página web/Imagenes Landing/17---colegio-los-Ándes.jpg" alt="">
+                </div>
+            </div>
+            <div class="columnna-1-3">
+                <div class="small">
+                    <img src="./página web/Imagenes Landing/18---beat-beat-bot.jpg" alt="">
+                </div>
+                <div class="large">
+                    <img src="./página web/Imagenes Landing/19--Ketzal.jpg" alt="">
+                </div>
+                <div class="small">
+                    <img src="./página web/Imagenes Landing/20-mar.jpg" alt="">
+                </div>
+            </div>
         </div>
     </main>
-
-    <footer>
-        <div class="footer">
-            <div class="row">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-youtube"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+    <section>
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <!-- <div class="contenedor-icono">
+                    <a href="" target="_blank" class="mail">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                </div> -->
+                <div class="contenedor-icono">
+                    <a href="https://wa.me/2644702622" target="_blank" class="whatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="http://www.instagram.com/llillu.stratore" target="_blank" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
             </div>
-
-            <!-- <div class="row">
-                <ul>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">Our Services</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Career</a></li>
-                </ul>
-            </div> -->
-
-            <div class="row">
-                Desarrolado por:
+            <div>
+                <div class="creado-por">
+                    <p class="efecto">Sitio diseñado por Mateo Rodriguez:<i class='bx bxl-dev-to'
+                            style=font-size:15px;></i><i class='bx bxl-github' style=font-size:20px;></i> <a
+                            href="https://github.com/matejose12">Matejose12
+                </div>
+                <div class="creado-por">
+                    <p class="efecto">Sitio diseñado por Mauricio Alvarez:<i class='bx bxl-dev-to'
+                            style=font-size:15px;></i><i class='bx bxl-github' style=font-size:20px;></i> <a
+                            href="https://github.com/Dfelipe14"> Dfelipe14
+                </div>
             </div>
-        </div>
-    </footer>
-
+    </section>
 </body>
 
 </html>
